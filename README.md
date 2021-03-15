@@ -1,3 +1,4 @@
 # Hologate_TypeScript
 
-TypeScript 
+TypeScript 연습용
+
