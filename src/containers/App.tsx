@@ -50,7 +50,7 @@ class App extends React.Component<IAppProps, IAppState> {
         }
     
 
-    render() {
+    render(): JSX.Element {
 
         const { Vtubers, searchField, background } = this.state
 
@@ -88,6 +88,3 @@ class App extends React.Component<IAppProps, IAppState> {
 };
 
 export default App;
-
-// class를 쓴다면 아래처럼
-// export default connect(mapStateToProps, mapDispatchToProps)(App);

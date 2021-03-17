@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface ICard {
-  id: number,
+  id?: number,
   name: string,
   img: string,
   gen: string,
